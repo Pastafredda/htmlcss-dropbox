@@ -46,7 +46,7 @@ header{
 }
 
 .nav-header li{
-    padding: 0 20px;
+    padding: 0 15px;
 }
 
 .button{
@@ -59,4 +59,55 @@ header{
 .button a{
     padding: 14px;
     color: white;
+}
+
+/* Fine header */
+
+/* Jumbotron */
+
+section{
+    height: 580px;
+    background-color: #B4D0E7;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.container h1{
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.jumbo{
+    display: flex;
+   
+}
+
+.jumbo p{
+    list-style-type: none;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+
+.button a{
+    text-decoration: none;
+}
+
+.jumbo-immagine{
+    height: 360px;
+    
+}
+
+.jumbo-immagine img{
+    height: 100%;
+}
+
+.fa-arrow-down{
+    font-size: 40px;
+    padding-top: 30px;
 }
