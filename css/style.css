@@ -1,0 +1,62 @@
+/* Regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header */
+
+header{
+    border-bottom: 1px solid #F5F5F6;
+}
+
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.nav-header img{
+    padding: 0 20px;
+    width: 150px;
+}
+
+.nav-header a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.nav-sx{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav-dx{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    
+}
+
+.nav-header li{
+    padding: 0 20px;
+}
+
+.button{
+    background-color: #3761FF;
+    color: white;
+    border: none;
+    padding: 6px 0;
+}
+
+.button a{
+    padding: 14px;
+    color: white;
+}
