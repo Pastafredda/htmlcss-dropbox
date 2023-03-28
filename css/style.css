@@ -138,9 +138,7 @@ header{
 
 .fa-circle{
     color: #dbdada;
-    
 }
-
 
 .flex-business{
     display: flex;
@@ -252,5 +250,42 @@ a{
 
 /* Fine piano business */
 
+.flex-partner{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.partner{
+    height: 400px;
+    
+}
 
+.partner-descrizione{
+    margin: 40px 0 0 40px;
+
+}
+
+.partner-descrizione h2{
+    font-size: 18px
+    
+}
+.partner-descrizione p{
+    font-size: 14px;
+}
+
+.partner img{
+    max-height: 100%;
+}
+
+.partner-button{
+    padding: 10px 14px;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+.partner-button a{
+    text-decoration: none;
+    color: black;
+}
