@@ -71,7 +71,6 @@ header{
 /* Jumbotron */
 
 #jumbotron{
-    height: 660px;
     background-color: #B4D0E7;
     margin-bottom: 100px;
 }
@@ -118,7 +117,7 @@ header{
 
 .fa-arrow-down{
     font-size: 40px;
-    padding-top: 30px;
+    padding-top: 80px;
 }
 
 /* Sezione piano business */
@@ -133,12 +132,15 @@ header{
     margin-bottom: 30px;
 }
 
+#mensile{
+    margin-right: 40px;
+}
 
 .fa-circle{
-    color: #F3F3F4;
-    padding-right: 5px;
+    color: #dbdada;
     
 }
+
 
 .flex-business{
     display: flex;
@@ -147,16 +149,108 @@ header{
     
 }
 
+.cards{
+    gap: 20px;
+    width: calc(100%/3 - 20px);
+    border: 1px solid  #dbdada ;
+}
+
+.card4{
+    border: 1px solid  #dbdada;
+    margin-top: 40px;
+    
+}
+
+.flex-contatta{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contatta{
+    padding: 20px;
+}
+
+.contatta .button{
+    padding: 8px 12px;
+}
+
+.contatta h4{
+    margin: 10px 0 40px 0;
+    font-size: 12px;
+}
+
+.contatta p{
+    font-size: 12px;
+    max-width: 550px;
+}
+
+.title-cards{
+    text-align: center;
+    border-bottom: 1px solid  #dbdada;
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+.piano{
+    padding:20px;
+}
+
+.piano h3{
+    margin-bottom: 20px;
+    font-size: 18px ;
+}
+
+.piano h4{
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.piano h5{
+    margin-top: 80px;
+}
+
+.mensilità{
+    color: #5e5e5e;
+    font-size: 12px;
+}
+
+.fa-solid{
+    padding-right:5px ;
+}
+
+.piano ul{
+    margin-top:50px ;
+}
+
 .piano li{
     list-style-type: none;
+    margin-top: 20px;
+    font-size: 12px;
 }
 
-/* debug */
-
-.schede{
-    height: 300px;
-    width: 200px;
-    border: solid 1px black;
-    padding: 10px 0;
+.piano .button {
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
+
+.acquista{
+    font-size: 12px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #9c9c9c;
+}
+
+a{
+    color: #3761FF;
+    font-size: 12px
+}
+
+.fa-check{
+    color: #3761FF;
+}
+
+/* Fine piano business */
+
+
 
