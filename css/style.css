@@ -12,7 +12,12 @@ body{
 /* Header */
 
 header{
-    border-bottom: 1px solid #F5F5F6;
+    border-bottom: 1px solid #F3F3F4;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 900; 
+    
 }
 
 .nav-header{
@@ -65,15 +70,16 @@ header{
 
 /* Jumbotron */
 
-section{
-    height: 580px;
+#jumbotron{
+    height: 660px;
     background-color: #B4D0E7;
+    margin-bottom: 100px;
 }
 
 .container{
     width: 60%;
     margin: auto;
-    padding-top: 70px;
+    padding-top: 150px;
 }
 
 .container h1{
@@ -88,14 +94,17 @@ section{
 }
 
 .jumbo p{
-    list-style-type: none;
     font-size: 12px;
     font-weight: 500;
-    padding: 20px 0;
+    padding-bottom: 20px;
 }
 
 .button a{
     text-decoration: none;
+}
+
+.jumbo button{
+    margin-bottom: 20px;
 }
 
 .jumbo-immagine{
@@ -111,3 +120,43 @@ section{
     font-size: 40px;
     padding-top: 30px;
 }
+
+/* Sezione piano business */
+
+.b-container{
+    width: 50%;
+    margin: auto;
+}
+
+.b-container h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+
+.fa-circle{
+    color: #F3F3F4;
+    padding-right: 5px;
+    
+}
+
+.flex-business{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+
+.piano li{
+    list-style-type: none;
+}
+
+/* debug */
+
+.schede{
+    height: 300px;
+    width: 200px;
+    border: solid 1px black;
+    padding: 10px 0;
+}
+
