@@ -1,0 +1,530 @@
+/* Regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header */
+
+header{
+    border-bottom: 1px solid #F3F3F4;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 900; 
+    
+}
+
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.nav-header img{
+    padding: 0 20px;
+    width: 150px;
+}
+
+.nav-header a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.nav-sx{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav-dx{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    
+}
+
+.nav-header li{
+    padding: 0 15px;
+}
+
+.button{
+    background-color: #3761FF;
+    color: white;
+    border: none;
+    padding: 6px 0;
+}
+
+.button a{
+    padding: 14px;
+    color: white;
+}
+
+/* Fine header */
+
+/* Jumbotron */
+
+#jumbotron{
+    background-color: #B4D0E7;
+    margin-bottom: 100px;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    padding-top: 150px;
+}
+
+.container h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.jumbo{
+    display: flex;
+   
+}
+
+.jumbo-descrizione{
+    padding-top: 50px;
+}
+
+.jumbo-descrizione li{
+    font-size: 12px;
+    font-weight: 500;
+    list-style-type: none;
+    padding: 10px;
+}
+
+
+.button a{
+    text-decoration: none;
+}
+
+.jumbo-immagine{
+    height: 360px;
+    position: relative;
+    top: 50px;
+    
+}
+
+.jumbo-immagine img{
+    height: 100%;
+}
+
+.fa-arrow-down{
+    font-size: 40px;
+}
+
+/* Sezione piano business */
+
+.b-container{
+    width: 55%;
+    margin: auto;
+}
+
+.b-container h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#mensile{
+    margin-right: 40px;
+}
+
+.fa-circle{
+    color: #dbdada;
+}
+
+.flex-business{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+
+.cards{
+    width: calc(100%/3 - 20px);
+    border: 1px solid  #dbdada ;
+}
+
+.card4{
+    border: 1px solid  #dbdada;
+    margin-top: 40px;
+    
+}
+
+.flex-contatta{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contatta{
+    padding: 20px;
+}
+
+.contatta .button{
+    padding: 8px 12px;
+}
+
+.contatta h4{
+    margin: 10px 0 40px 0;
+    font-size: 12px;
+}
+
+.contatta p{
+    font-size: 12px;
+    max-width: 550px;
+}
+
+.title-cards{
+    text-align: center;
+    border-bottom: 1px solid  #dbdada;
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+.piano{
+    padding:20px;
+}
+
+.piano h3{
+    margin-bottom: 20px;
+    font-size: 18px ;
+}
+
+.piano h4{
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.piano h5{
+    margin-top: 80px;
+}
+
+.mensilità{
+    color: #5e5e5e;
+    font-size: 12px;
+}
+
+.fa-solid{
+    padding-right:5px ;
+}
+
+.piano ul{
+    margin-top:50px ;
+}
+
+.piano li{
+    list-style-type: none;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.piano .button {
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.acquista{
+    font-size: 12px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #9c9c9c;
+}
+
+a{
+    color: #3761FF;
+    font-size: 12px
+}
+
+.fa-check{
+    color: #3761FF;
+}
+
+/* Fine piano business */
+
+.flex-partner{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.partner{
+    height: 400px;
+    
+}
+
+.partner-descrizione{
+    margin: 40px 0 0 40px;
+
+}
+
+.partner-descrizione h2{
+    font-size: 18px
+    
+}
+.partner-descrizione p{
+    font-size: 14px;
+}
+
+.partner img{
+    max-height: 100%;
+}
+
+.partner-button{
+    padding: 10px 14px;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+.partner-button a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Inizio spiegazione operazioni */
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 220px;
+}
+
+.container-op{
+    height: 200px;
+}
+
+.container-op h3{
+    margin-top: 20px; 
+}
+
+.container-op p{
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.container-op img{
+    max-height: 100%;
+}
+
+.team{
+    padding-top: 120px;
+    width: 500px;
+}
+
+.team a{
+    color: #3761FF;
+}
+
+/* Fine parte principale */
+
+/* Inizio università */
+
+.container-uni{ 
+    display: flex;
+    margin-top: 120px;
+}
+
+.sinistra{
+    height: 500px;
+    width: calc(100%/3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.centrale{
+    height: 500px;
+    width: calc(100%/3);
+    background-color: #F5F5F5;
+    padding: 50px;
+    overflow: auto;
+   
+}
+
+.centrale img{
+    width: 250px;
+    padding-bottom: 40px;
+}
+
+.divisorio{
+    width: 80px;
+    border-bottom: 1px solid #9c9c9c;
+}
+
+.centrale p{
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+.destra{
+    height: 500px;
+    width: calc(100%/3);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.square{
+    width: calc(100%/2);
+    position: relative;
+}
+
+.square img{
+   width: 100px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   
+}
+
+.designit{
+    background-color: #A2D39B;
+    border: 12px solid #D1E9CD;
+}
+
+.arizona{
+    background-color:  #610D2A;
+}
+
+.florida{
+    background-color:#4A94CF ;
+}
+
+.topps{
+    background-color:#E62E2D ;
+}
+
+.bicycle{
+    background-color: #D62A29;
+}
+
+.hearts{
+    background-color:#B4D0E7 ;
+}
+
+.lonely{
+    background-color:#132481 ;
+}
+
+.clear{
+    background-color: #F6D72E;    
+}
+
+.banner{
+    background-color: #B4D0E7;
+    margin-bottom: 120px;
+}
+
+.container-banner{
+    width: 60%;
+    margin: auto;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-banner h2{
+    width: 400px;
+    font-size: 30px;
+    color: #610D2A;
+}
+
+.banner-button{
+    border: none;
+    padding: 10px 12px;
+    background-color: white;
+}
+
+.banner-button a{
+    text-decoration: none;
+    padding: 12px 24px;
+    color: black;
+}
+
+/* Parte delle domande */
+
+.faq{
+    width: 55%;
+    margin: auto;
+}
+
+.faq h2{
+    font-size: 30px;
+    border-bottom: 1px solid #9c9c9c;
+    padding-bottom: 30px ;
+}
+
+.flex-faq{
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq h4{
+    border-bottom: 1px solid #9c9c9c;
+    padding: 30px 0;
+    font-size: 14px;
+}
+
+.fa-angle-down{
+    margin-left: 200px;
+}
+
+/* Footer */
+
+footer{
+    background-color: black;
+}
+
+.container-footer{
+    width: 60%;
+    margin: auto;
+    margin-top: 120px;
+    padding-top: 50px;
+}
+
+.flex-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    padding-bottom: 80px;
+}
+
+.menu h3{
+    font-size: 18px;
+    padding-bottom: 12px;
+}
+
+.menu li{
+    list-style-type: none;
+    padding-top: 10px;
+    font-size: 14px;
+    color: white;
+}
+
+.language{
+    width: 100px;
+    color: #9c9c9c;
+    padding: 40px 0;
+    font-size: 14px;
+    border-top: 1px solid #9c9c9c;
+}
+
+.fa-caret-up{
+    padding-left: 2px;
+
+}
