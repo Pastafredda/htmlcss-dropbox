@@ -329,6 +329,92 @@ a{
 
 /* Inizio università */
 
-.container-uni{
+.container-uni{ 
+    display: flex;
+    margin-top: 120px;
+}
+
+.sinistra{
+    height: 500px;
+    width: calc(100%/3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.centrale{
+    height: 500px;
+    width: calc(100%/3);
+    background-color: #F5F5F5;
+    padding: 50px;
+    overflow: auto;
+   
+}
+
+.centrale img{
+    width: 250px;
+    padding-bottom: 40px;
+}
+
+.divisorio{
+    width: 80px;
+    border-bottom: 1px solid #9c9c9c;
+}
+
+.centrale p{
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+.destra{
+    height: 500px;
+    width: calc(100%/3);
+    display: flex;
+    flex-wrap: wrap;
     
+}
+
+.square{
+    width: calc(100%/2);
+    position: relative;
+}
+
+.square img{
+   width: 100px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   
+}
+
+.designit{
+    background-color: #A2D39B;
+}
+
+.arizona{
+    background-color:  #610D2A;
+}
+
+.florida{
+    background-color:#4A94CF ;
+}
+
+.topps{
+    background-color:#E62E2D ;
+}
+
+.bicycle{
+    background-color: #D62A29;
+}
+
+.hearts{
+    background-color:#B4D0E7 ;
+}
+
+.lonely{
+    background-color:#132481 ;
+}
+
+.clear{
+    background-color: #F6D72E;
 }
