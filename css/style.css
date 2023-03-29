@@ -222,7 +222,7 @@ header{
 .piano li{
     list-style-type: none;
     margin-top: 20px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .piano .button {
@@ -452,6 +452,8 @@ a{
     color: black;
 }
 
+/* Parte delle domande */
+
 .faq{
     width: 55%;
     margin: auto;
@@ -476,4 +478,51 @@ a{
 
 .fa-angle-down{
     margin-left: 200px;
+}
+
+/* Footer */
+
+footer{
+    background-color: black;
+}
+
+.container-footer{
+    width: 60%;
+    margin: auto;
+    margin-top: 120px;
+    padding-top: 50px;
+}
+
+.flex-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    padding-bottom: 80px;
+}
+
+.menu h3{
+    font-size: 18px;
+    padding-bottom: 12px;
+}
+
+.menu li{
+    list-style-type: none;
+    padding-top: 10px;
+    font-size: 14px;
+    color: white;
+}
+
+.language{
+    width: 100px;
+    color: #9c9c9c;
+    padding: 40px 0;
+    font-size: 14px;
+    border-top: 1px solid #9c9c9c;
+}
+
+.fa-caret-up{
+    padding-left: 2px;
+
 }
