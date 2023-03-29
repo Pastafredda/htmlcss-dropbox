@@ -389,6 +389,7 @@ a{
 
 .designit{
     background-color: #A2D39B;
+    border: 12px solid #D1E9CD;
 }
 
 .arizona{
@@ -416,5 +417,63 @@ a{
 }
 
 .clear{
-    background-color: #F6D72E;
+    background-color: #F6D72E;    
+}
+
+.banner{
+    background-color: #B4D0E7;
+    margin-bottom: 120px;
+}
+
+.container-banner{
+    width: 60%;
+    margin: auto;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-banner h2{
+    width: 400px;
+    font-size: 30px;
+    color: #610D2A;
+}
+
+.banner-button{
+    border: none;
+    padding: 10px 12px;
+    background-color: white;
+}
+
+.banner-button a{
+    text-decoration: none;
+    padding: 12px 24px;
+    color: black;
+}
+
+.faq{
+    width: 55%;
+    margin: auto;
+}
+
+.faq h2{
+    font-size: 30px;
+    border-bottom: 1px solid #9c9c9c;
+    padding-bottom: 30px ;
+}
+
+.flex-faq{
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq h4{
+    border-bottom: 1px solid #9c9c9c;
+    padding: 30px 0;
+    font-size: 14px;
+}
+
+.fa-angle-down{
+    margin-left: 200px;
 }
