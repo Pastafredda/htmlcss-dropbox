@@ -58,11 +58,11 @@ header{
     background-color: #3761FF;
     color: white;
     border: none;
-    padding: 6px 0;
+    text-decoration: none;
+    padding: 8px 12px;
 }
 
-.button a{
-    padding: 14px;
+.nav-dx .button{
     color: white;
 }
 
@@ -95,20 +95,11 @@ header{
 .jumbo p{
     font-size: 12px;
     font-weight: 500;
-    padding-bottom: 20px;
-}
-
-.button a{
-    text-decoration: none;
-}
-
-.jumbo button{
-    margin-bottom: 20px;
+    padding: 20px 0;
 }
 
 .jumbo-immagine{
     height: 360px;
-    
 }
 
 .jumbo-immagine img{
@@ -150,35 +141,6 @@ header{
 .cards{
     width: calc(100%/3 - 20px);
     border: 1px solid  #dbdada ;
-}
-
-.card4{
-    border: 1px solid  #dbdada;
-    margin-top: 40px;
-    
-}
-
-.flex-contatta{
-    display: flex;
-    justify-content: space-between;
-}
-
-.contatta{
-    padding: 20px;
-}
-
-.contatta .button{
-    padding: 8px 12px;
-}
-
-.contatta h4{
-    margin: 10px 0 40px 0;
-    font-size: 12px;
-}
-
-.contatta p{
-    font-size: 12px;
-    max-width: 550px;
 }
 
 .title-cards{
@@ -225,11 +187,18 @@ header{
     font-size: 14px;
 }
 
-.piano .button {
-    width: 100%;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+.button-cards{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.button-cards a{
+    background-color: #3761FF;
+    color: white;
+    border: none;
+    text-decoration: none;
+    padding: 8px 28px;
 }
 
 .acquista{
@@ -245,6 +214,35 @@ a{
 
 .fa-check{
     color: #3761FF;
+}
+
+.card4{
+    border: 1px solid  #dbdada;
+    margin-top: 40px;
+    
+}
+
+.flex-contatta{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contatta{
+    padding: 20px;
+}
+
+.contatta .button{
+    padding: 8px 12px;
+}
+
+.contatta h4{
+    margin: 10px 0 40px 0;
+    font-size: 12px;
+}
+
+.contatta p{
+    font-size: 12px;
+    max-width: 550px;
 }
 
 /* Fine piano business */
@@ -272,6 +270,7 @@ a{
 }
 .partner-descrizione p{
     font-size: 14px;
+    margin-bottom: 30px;
 }
 
 .partner img{
@@ -282,10 +281,6 @@ a{
     padding: 10px 14px;
     background-color: white;
     border: 1px solid black;
-    margin-top: 30px;
-}
-
-.partner-button a{
     text-decoration: none;
     color: black;
 }
@@ -443,14 +438,10 @@ a{
 
 .banner-button{
     border: none;
-    padding: 10px 12px;
+    padding: 8px 24px;
     background-color: white;
-}
-
-.banner-button a{
-    text-decoration: none;
-    padding: 12px 24px;
     color: black;
+    text-decoration: none;
 }
 
 /* Parte delle domande */
