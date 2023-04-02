@@ -111,6 +111,7 @@ header{
 }
 
 .fa-arrow-down{
+    color: black;
     font-size: 40px;
     padding-top: 80px;
 }
