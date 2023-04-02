@@ -189,6 +189,10 @@ header{
     list-style-type: none;
     margin-top: 20px;
     font-size: 14px;
+    padding-left: 20px;
+}
+.piano i{
+    margin-left: -19px;
 }
 
 .button-cards{
